@@ -220,5 +220,7 @@ select id, first_name, email, age from people order by age desc;
 --33. Удалить людей младще 18 лет
 delete from people where  age < 18;
 
+drop table people;
+
 
 
